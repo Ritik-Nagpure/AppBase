@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "strict": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*"], // Only include files in the 'src' directory
+  "exclude": ["vite.config.ts"] // Exclude the Vite config file
+}
